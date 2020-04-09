@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8d1460-2257-4f80-ab0d-0d2c5d84a8f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/quotesbot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/logging_config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/service/loginservice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/service/mysqlservice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotesbot/spiders/toscrape-gov.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotesbot/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotesbot/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quotesbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quotesbot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gov.json" beforeDir="false" afterPath="$PROJECT_DIR$/gov.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotesbot/service/mysqlservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotesbot/service/mysqlservice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotesbot/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotesbot/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotesbot/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotesbot/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="113" column="115" selection-start-line="110" selection-start-column="18" selection-end-line="113" selection-end-column="115" />
+            <state relative-caret-position="75">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quotesbot/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+            <state relative-caret-position="-46">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#192#237#0" expanded="true" />
               </folding>
@@ -61,24 +55,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quotesbot/service/my_app.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_app.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="713" column="132" selection-start-line="713" selection-start-column="122" selection-end-line="713" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quotesbot/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="446">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -89,10 +69,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62955">
+              <caret line="4197" column="59" selection-start-line="4197" selection-start-column="59" selection-end-line="4197" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quotesbot/service/mysqlservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="33" column="85" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="85" />
+            <state relative-caret-position="75">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#1#23#0" expanded="true" />
               </folding>
@@ -151,6 +140,14 @@
       <find>思南</find>
       <find>CUST_REGION_GOV</find>
       <find>2224260000</find>
+      <find>CUST_REGION_DETAIL</find>
+      <find>agent</find>
+      <find>parseCounty</find>
+      <find>putdata_regin_gov</find>
+      <find>JsonPipeline</find>
+      <find>DetailPipeline</find>
+      <find>base_url</find>
+      <find>records[0]</find>
     </findStrings>
     <replaceStrings>
       <replace>json.dumps</replace>
@@ -158,6 +155,7 @@
       <replace>logger.info</replace>
       <replace>sqlHandler</replace>
       <replace>CUST_REGION_DETAIL</replace>
+      <replace>CUST_REGION</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,10 +175,10 @@
         <option value="$PROJECT_DIR$/gov.json" />
         <option value="$PROJECT_DIR$/my_app.log" />
         <option value="$PROJECT_DIR$/quotesbot/spiders/toscrape-gov.py" />
-        <option value="$PROJECT_DIR$/quotesbot/service/mysqlservice.py" />
+        <option value="$PROJECT_DIR$/quotesbot/pipelines.py" />
         <option value="$PROJECT_DIR$/quotesbot/settings.py" />
         <option value="$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py" />
-        <option value="$PROJECT_DIR$/quotesbot/pipelines.py" />
+        <option value="$PROJECT_DIR$/quotesbot/service/mysqlservice.py" />
       </list>
     </option>
   </component>
@@ -200,53 +198,25 @@
         <subPane>
           <expand>
             <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapyGov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapyGov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapyGov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapyGov" type="462c0819:PsiDirectoryNode" />
               <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
-              <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyGov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapyGov" type="462c0819:PsiDirectoryNode" />
               <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapyGov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapyGov" type="462c0819:PsiDirectoryNode" />
               <item name="quotesbot" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (env) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (env) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (env) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quotesbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (env) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +232,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/quotesbot/spiders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -376,22 +346,24 @@
       <workItem from="1566956128950" duration="72306000" />
       <workItem from="1567591099276" duration="760000" />
       <workItem from="1567663032756" duration="9440000" />
+      <workItem from="1585713580223" duration="3734000" />
+      <workItem from="1586423576705" duration="1540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104304000" />
+    <option name="totallyTimeSpent" value="109578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24332978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3231441" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47379914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5742358" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6386463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -436,24 +408,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py</url>
-          <line>108</line>
+          <line>109</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py</url>
-          <line>102</line>
+          <line>103</line>
           <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quotesbot$spiderrun.coverage" NAME="spiderrun Coverage Results" MODIFIED="1566973254248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotesbot/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyGov$cmdline.coverage" NAME="cmdline Coverage Results" MODIFIED="1586424506588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quotesbot$quotesbot.coverage" NAME="cmdline Coverage Results" MODIFIED="1566901507398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quotesbot$mysqlservice.coverage" NAME="mysqlservice Coverage Results" MODIFIED="1567156424507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotesbot/service" />
     <SUITE FILE_PATH="coverage/quotesbot$cmdline.coverage" NAME="cmdline Coverage Results" MODIFIED="1567672973730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -717,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="4197" column="59" selection-start-line="4197" selection-start-column="59" selection-end-line="4197" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quotesbot/logging_config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -758,8 +719,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quotesbot/service/my_app.log" />
+    <entry file="file://$PROJECT_DIR$/my_app.log" />
     <entry file="file://$PROJECT_DIR$/gov.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62955">
+          <caret line="4197" column="59" selection-start-line="4197" selection-start-column="59" selection-end-line="4197" selection-end-column="59" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$USER_HOME$/env/lib/python3.6/site-packages/mysql/connector/connection_cext.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,47 +752,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quotesbot/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotesbot/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#192#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quotesbot/service/mysqlservice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="85" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="85" />
+        <state relative-caret-position="75">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#1#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotesbot/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quotesbot/spiders/toscrape-detail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="113" column="115" selection-start-line="110" selection-start-column="18" selection-end-line="113" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotesbot/service/my_app.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="713" column="132" selection-start-line="713" selection-start-column="122" selection-end-line="713" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quotesbot/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
-          <folding>
-            <element signature="e#192#237#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>

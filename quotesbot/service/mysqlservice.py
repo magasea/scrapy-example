@@ -14,10 +14,10 @@ class MysqlHandler:
     def connect(self):
         if not self.connection:
             try:
-                self.connection = mysql.connector.connect(host='10.20.100.70',
+                self.connection = mysql.connector.connect(host='10.20.100.235',
                                                      database='ZCC_CUST',
-                                                     user='root',
-                                                     password='wensheng')
+                                                     user='worker',
+                                                     password='Wsamc@12345')
                 if self.connection.is_connected():
                     db_Info = self.connection.get_server_info()
                     print("Connected to MySQL Server version ", db_Info)
@@ -31,10 +31,10 @@ class MysqlHandler:
     def putdata_regin_gov(self, id, name, parent_id):
         cursor = self.connection.cursor()
         record = (id, name, parent_id)
-        mysql_select_query = """  SELECT id, name, parent_id  FROM CUST_REGION_DETAIL where id = %s"""
-        mysql_delete_query = """  DELETE FROM  CUST_REGION_DETAIL where id = %s"""
-        mysql_insert_query = """  INSERT INTO CUST_REGION_DETAIL (id, name, parent_id) VALUES( %s, %s, %s)"""
-        mysql_update_query = """  UPDATE CUST_REGION_DETAIL SET  name = %s, parent_id = %s WHERE id = %s """
+        mysql_select_query = """  SELECT id, name, parent_id  FROM CUST_REGION where id = %s"""
+        mysql_delete_query = """  DELETE FROM  CUST_REGION where id = %s"""
+        mysql_insert_query = """  INSERT INTO CUST_REGION (id, name, parent_id) VALUES( %s, %s, %s)"""
+        mysql_update_query = """  UPDATE CUST_REGION SET  name = %s, parent_id = %s WHERE id = %s """
         cursor.execute(mysql_select_query, (id,))
         records = cursor.fetchall()
         if cursor.rowcount <= 0 :
@@ -46,7 +46,7 @@ class MysqlHandler:
             cursor.execute(mysql_insert_query, record)
         else:
             if records[0][1] != name:
-                logger.error("the name of DB:%s is not the name input:%s, will be updated", records[0].name, name)
+                logger.error("the name of DB:%s is not the name input:%s, will be updated", records[0][1], name)
                 cursor.execute(mysql_update_query, (name, parent_id, id))
             else:
                 logger.info("no update need for id:%s", id)
@@ -68,7 +68,7 @@ class MysqlHandler:
         cursor_orig = self.connection.cursor(buffered = True)
         cursor_gov = self.connection.cursor(buffered=True)
         region_select = """  SELECT id, name, parent_id  FROM CUST_REGION ORDER BY id ASC LIMIT %s, %s """
-        region_gov_select = """  SELECT id, name, parent_id  FROM CUST_REGION_DETAIL ORDER BY id ASC LIMIT %s, %s """
+        region_gov_select = """  SELECT id, name, parent_id  FROM CUST_REGION ORDER BY id ASC LIMIT %s, %s """
         offset = 0
         pageSize = 20
         cursor_orig.execute(region_select, (offset, pageSize))
@@ -103,7 +103,7 @@ class MysqlHandler:
                                             record[2], record_origin[0][0], record_origin[0][1], record_origin[0][2]))
 
     def compare_gov(self, records_orig):
-        region_select = """  SELECT id, name, parent_id  FROM CUST_REGION_DETAIL WHERE id = %s """
+        region_select = """  SELECT id, name, parent_id  FROM CUST_REGION WHERE id = %s """
         cursor_gov = self.connection.cursor(buffered=True)
         for record in records_orig:
             cursor_gov.execute(region_select, (record[0],))

@@ -10,9 +10,10 @@ class GovSpider(scrapy.Spider):
 
     name = "toscrape-detail"
     start_urls = [
-        'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/index.html',
+        'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html',
     ]
 
+    base_url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/%s'
     provinces_urls = []
 
     def parse(self, response):
@@ -35,7 +36,7 @@ class GovSpider(scrapy.Spider):
 
             logger.info('parse: %s, %s',province_ref, content_ref)
         for province_ref in records:
-            yield scrapy.Request('http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/%s' % province_ref,
+            yield scrapy.Request(self.base_url % province_ref,
                                  callback=lambda response, parent='top:%s:%s'%(province_ref, records[province_ref][0]): self.parseProvince(response, parent))
 
         yield records
@@ -54,7 +55,7 @@ class GovSpider(scrapy.Spider):
                 continue
             if city_ref in records:
                 records[city_ref].append(content_ref)
-                yield scrapy.Request('http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/%s' % city_ref,
+                yield scrapy.Request(self.base_url % city_ref,
                                      callback= lambda response, parent='%s:second:%s:%s'%(parent, records[city_ref][0], records[city_ref][1]): self.parseCity(response, parent))
             else:
                 records[city_ref] = {}
